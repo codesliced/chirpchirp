@@ -15,6 +15,7 @@ gem 'activesupport'
 gem 'activerecord'
 
 gem 'rake'
+gem 'faker'
 
 
 gem 'oauth'
@@ -22,6 +23,5 @@ gem 'twitter'
 
 group :development, :test do
   gem 'shotgun'
-  gem 'faker'
   gem 'rspec'
 end
