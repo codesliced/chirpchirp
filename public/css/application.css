@@ -1,0 +1,129 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 0;
+}
+th {
+  text-align: left;
+}
+
+h1 {
+  color: #15aed8;
+}
+
+h2 {
+  color: #e26c6c;
+}
+
+input[type=submit] {
+  border: none;
+  background-color: white;
+}
+
+  @import url(http://devsarray.com.ar/hernan/reset.css);
+  body{
+    width:100%;
+    height:300px;
+    position:absolute;
+    overflow:hidden;
+    background-color:#666;
+  }
+  .piopio{
+    position:relative;
+  }
+  #pajaro{
+    left:100%;
+    -moz-animation:volar 5s infinite;
+    -webkit-animation: volar 5s infinite;
+    -o-animation:volar 5s infinite;
+    -ms-animation:volar 5s infinite;
+    -khtml-animation:volar 5s infinite;
+    animation:volar 5s infinite;
+  }
+  @-moz-keyframes volar{
+    0%{
+      top:5px;
+    }25%{
+      top:100px;
+    }50%{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
+  @-webkit-keyframes volar{
+    0%{
+      margin-left:100%;
+      top:5px;
+    }25%{
+      top:100px;
+    }50%{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
+  @-o-keyframes volar{
+    0%{
+      top:5px;
+    }25%{
+      top:100px;
+    }50%{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
+  @-ms-keyframes volar{
+    0%{
+      top:5px;
+    }25%{
+      top:100px;
+    }50%{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
+  @-khtml-keyframes volar{
+    0%{
+      top:5px;
+    }25%{
+      top:100px;
+    }50%{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
+  @keyframes volar{
+    0%{
+      left:100%;
+      top:5px;
+    }25%{
+      top:100px;
+    }50px{
+      top:80px;
+    }75%{
+      top:25px;
+    }100%{
+      left:-177px;
+      top:102px;
+    }
+  }
